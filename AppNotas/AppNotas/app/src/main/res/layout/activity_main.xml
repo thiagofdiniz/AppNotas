@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0CC7B4"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/linhabranca" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_gravity="start"
+                android:layout_marginLeft="50dp"
+                android:src="@drawable/losango" />
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_gravity="start"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/hexagono" />
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_gravity="start"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/circulo" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:text="Notas Pessoais"
+                android:textColor="#FFF"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Notas de escritório"
+                android:textColor="#FFF"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Notas públicas"
+                android:textColor="#FFF"
+                android:textSize="17dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/linhabranca"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:background="#CCD9A3"
+                android:padding="20dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="5dp"
+                android:background="#966A3D"
+                android:padding="20dp"
+                android:text="Anexe uma foto"
+                android:textSize="18dp"
+                android:textColor="#FFF"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#E36B52"
+                android:padding="20dp"
+                android:text=" Lorem ipsum eu erat elit aenean in amet aenean, purus nullam per facilisis consectetur vel. "
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anexe uma foto"
+                android:padding="20dp"
+                android:background="#FEC22C"
+                android:textColor="#FFF"
+                android:textSize="18dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
