@@ -104,7 +104,7 @@
                 android:layout_marginLeft="5dp"
                 android:background="#CCD9A3"
                 android:padding="15dp"
-                android:text="Nota 1 Lorem ipsum ullamcorper rutrum velit, habitasse ac laoreet."
+                android:text="Nota 1\nLorem ipsum ullamcorper rutrum velit, habitasse ac laoreet."
                 android:textSize="18sp" />
 
             <TextView
@@ -114,7 +114,7 @@
                 android:layout_marginTop="10dp"
                 android:background="#E36B52"
                 android:padding="20dp"
-                android:text="Nota 1Lorem ipsum aliquam ante bibendum et, habitant netus amet suscipit volutpat, aenean dui aliquam volutpat. "
+                android:text="Nota 1\nLorem ipsum aliquam ante bibendum et, habitant netus amet suscipit volutpat, aenean dui aliquam volutpat. "
                 android:textSize="18sp" />
 
 
@@ -165,12 +165,12 @@
 
                 <TextView
                     android:layout_width="170dp"
-                    android:layout_height="118dp"
+                    android:layout_height="138dp"
                     android:layout_marginLeft="5dp"
                     android:background="#FEC22C"
                     android:drawableBottom="@drawable/linhabranca"
                     android:padding="20dp"
-                    android:text="Nota 2 Lorem ipsum dolor sit amet"
+                    android:text="Nota 2\nLorem ipsum dolor sit amet,"
                     android:textSize="18sp" />
 
             </LinearLayout>
