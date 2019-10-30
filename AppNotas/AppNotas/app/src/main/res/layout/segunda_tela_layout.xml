@@ -7,14 +7,18 @@
     android:orientation="vertical"
     tools:context=".SegundaTela_Activity">
     <androidx.appcompat.widget.Toolbar
+        android:id="@+id/idToolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#0cc7b4"
+        app:titleTextColor="#FFF"
         >
 <TextView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:text="AppNotas"/>
+    android:text="AppNotas"
+    android:textColor="#FFF"
+    />
 
     </androidx.appcompat.widget.Toolbar>
     <LinearLayout
